@@ -1,0 +1,173 @@
+@import 'reset.css';
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+
+header {
+    margin: auto;
+}
+
+
+
+.surgery__content {
+    padding-top: 100px;
+}
+
+.surgery__title {
+    color: var(--primary-color);
+    font-family: var(--font-main);
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+    text-align: center;
+}
+
+.surgery__description {
+    color: var(--secondary-color);
+    text-align: center;
+    font-family: var(--font-main);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-top: 20px;
+}
+
+.surgery__blocks {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.surgery__block {
+    width: 262px;
+    height: 518px;
+    margin-top: 50px;
+}
+
+.surgery__subtitle {
+    color: var(--primary-color);
+    font-family: var(--font-rubik);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+    margin-top: 20px;
+}
+
+.surgery__text {
+    color: var(--color-description);
+    font-family: var(--font-rubik);
+    ;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 8px;
+}
+
+.surgery__btn {
+    width: 262px;
+    height: 48px;
+    border-radius: 4px;
+    border: 1px solid #97D9D0;
+    color: var(--bg-color);
+    font-family: var(--font-rubik);
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+.list-services {
+    width: 1110px;
+    margin: auto;
+}
+
+.list-services__items {
+    margin-top: 50px;
+}
+
+.list-services__item {
+    border-radius: 8px;
+    border: 1px solid #546E7A;
+    background: rgba(217, 217, 217, 0.00);
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.list-services__content {
+    align-self: center;
+    margin-left: 30px;
+}
+
+.list-services__title {
+
+    margin-top: 85px;
+    text-align: center;
+    color: var(--primary-color);
+    font-family: var(--font-main);
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+}
+
+.list-services__subtitle {
+    color: var(--primary-color);
+    font-family: var(--font-secondary);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.list-services__text {
+    color: var(--secondary-color);
+    font-family: var(--font-secondary);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    width: 608px;
+    margin-top: 10px;
+}
+
+.list-services__details-link {
+    width: 106px;
+    height: 32px;
+    display: block;
+    border-radius: 16px;
+    border: 1px solid var(--bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 28px;
+
+}
+
+.link {
+    color: var(--bg-color);
+    text-align: center;
+    font-family: var(--font-accent);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+}
+
+.list-services__share-text {
+    color: var(--primary-color);
+    font-family: var(--font-rubik);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+}
+.list-services__share{
+    margin-top: 30px;
+    margin-bottom: 100px;
+    width: 246px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list-services__icons{
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+}
